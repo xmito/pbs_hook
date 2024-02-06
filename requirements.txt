@@ -1,0 +1,5 @@
+psycopg2==2.8.5
+simplejson==3.17.0
+numpy==1.18.5
+pbs==0.110
+scikit_learn==0.23.1

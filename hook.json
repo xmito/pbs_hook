@@ -1,0 +1,13 @@
+{
+    "repository": "/var/spool/pbs/sched_priv/models",
+	"storage": {"dbname": "workloads",
+		    "host": "host.example.com",
+		    "user": "custom_user",
+		    "password": "custom_password",
+		    "sslmode": "verify-full"},
+    "threshold": 25,
+    "fallback": "rel_walltime_usage",
+    "jfit_limit": true,
+    "jperiod": 60,
+    "jrate": 30
+}
